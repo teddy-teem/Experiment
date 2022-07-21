@@ -4,7 +4,7 @@ const execSync = require("child_process").execSync;
 const path = require("path");
 const arg = process.argv;
 execSync(`mkdir ${arg[2]}`);
-execSync(`mkdir src`, { cwd:  `/${arg[2]}` });
+execSync(`mkdir src`, { cwd:  `${arg[2]}` });
 execSync(`mkdir controllers`, { cwd: `${arg[2]}/src` });
 execSync(`mkdir models`, { cwd: `${arg[2]}/src` });
 execSync(`mkdir variables`, { cwd: `${arg[2]}/src` });
