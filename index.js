@@ -9,7 +9,7 @@ execSync(`mkdir controllers`, { cwd: `${arg[2]}/src` });
 execSync(`mkdir models`, { cwd: `${arg[2]}/src` });
 execSync(`mkdir variables`, { cwd: `${arg[2]}/src` });
 execSync(`touch healthController.js`,{ cwd:  `${arg[2]}/src/controllers` });
-execSync(`mkdir variables`, { cwd: `${arg[2]}/src` });
+execSync(`touch variables`, { cwd: `${arg[2]}/src` });
 execSync(`touch index.js`, { cwd: `${arg[2]}/src` } );
 execSync(`touch routes.js`, { cwd: `${arg[2]}/src` });
 execSync(`touch .env`, { cwd: `${arg[2]}/src` });
