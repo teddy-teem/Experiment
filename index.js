@@ -13,4 +13,4 @@ execSync(`touch index.js`, { cwd: path.join(__dirname, `${arg[2]}/src`) } );
 execSync(`touch routes.js`, { cwd: path.join(__dirname, `${arg[2]}/src`) });
 execSync(`touch .env`, { cwd: path.join(__dirname, `${arg[2]}/src`) });
 execSync(`touch .gitignore`);
-execSync(`npm init -y`, { cwd: path.join(__dirname, `${arg[2]}/src`) });
+// execSync(`npm init -y`, { cwd: path.join(__dirname, `${arg[2]}/src`) });
