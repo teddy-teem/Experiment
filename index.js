@@ -15,5 +15,6 @@ execSync(`touch routes.js`, { cwd: `${arg[2]}/src` });
 execSync(`touch .env`, { cwd: `${arg[2]}/src` });
 execSync(`touch .gitignore`, {cwd: `${arg[2]}`});
 execSync(`npm init -y`, { cwd: `${arg[2]}/src` });
+console.log("Wait a bit, installing some commonly used node module in server side.....");
 execSync(`npm i koa koa-body koa-router dotenv axios multer memory-cache`, { cwd: `${arg[2]}/src` });
 
