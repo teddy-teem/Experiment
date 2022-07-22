@@ -1,5 +1,7 @@
 const fs = require('fs');
 const temp = require("./temp.json");
+const path = require("path");
+const { dirname } = require('path');
 
 exports.writeController = (repo)=>{
     fs.writeFileSync(`${repo}`, temp.healthController, );
@@ -18,6 +20,5 @@ exports.writeVarIndex = (repo)=>{
 }
 
 exports.writeGitignore = (repo)=>{
-    const string = fs.readFileSync("./gitignore.txt")
-    fs.writeFileSync(`${repo}`, string );
+    fs.writeFileSync(`${repo}`, temp.gitignore );
 }
