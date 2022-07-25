@@ -3,6 +3,7 @@
 const execSync = require("child_process").execSync;
 const wirteData = require("./wirteData")
 const arg = process.argv;
+console.log(arg);
 console.log("I am on the way  :-p");
 execSync(`mkdir ${arg[2]}`);
 execSync(`mkdir src`, { cwd:  `${arg[2]}` });
