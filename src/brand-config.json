@@ -10,6 +10,7 @@
         "singlePageForm": true,
         "confirmEmail": true
       }
-    }
+    },
+    "ok": "OK"
   }
 }
