@@ -1,7 +1,7 @@
 {
   "version": "0.1.0",
   "dependencies": {
-    "baseApp": "2"
+    "baseApp": "1"
   },
   "scripts": {},
   "browserslist": [
