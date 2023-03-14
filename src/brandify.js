@@ -4,6 +4,8 @@ const fs = require("fs");
 const path = require("path");
 const shell = require("shelljs");
 const brandConfig = require("./brand-config.json");
+const environment = process.env.REACT_APP_ENVIRONMENT || "dev";
+const brandConfig = require(`./brand-config.${environment}.json`);
 const planBenefits = require("./planBenefits.json");
 const { colors, colorsV2, brandInfo, features, emails, defaults } = brandConfig;
 const hasBorder = colors.loginBorder !== "#ffffff";
