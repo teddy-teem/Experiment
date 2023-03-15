@@ -1,8 +1,8 @@
 {
   "features": {
-    "signup": false,
+    "signup": true,
     "hello": "ok",
-    "subscription": false,
+    "subscription": true,
     "externalSignUpLink": "www.google.com",
     "registration": {
       "config": {
