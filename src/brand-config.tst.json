@@ -3,7 +3,6 @@
     "signup": true,
     "hello": "ok",
     "subscription": false,
-    "externalSignUpLink": "www.google.com",
     "registration": {
       "config": {
         "onPortal": false,
