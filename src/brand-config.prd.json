@@ -1,0 +1,15 @@
+{
+  "features": {
+    "signup": false,
+    "hello": "ok",
+    "subscription": false,
+    "externalSignUpLink": "www.google.com",
+    "registration": {
+      "config": {
+        "onPortal": false,
+        "singlePageForm": true,
+        "confirmEmail": true
+      }
+    }
+  }
+}
