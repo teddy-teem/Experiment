@@ -1,7 +1,8 @@
 {
   "version": "0.1.0",
   "dependencies": {
-    "baseApp": "1.45"
+    "baseApp": "1.45",
+    "@aucorp/cx-base-web-app": "6"
   },
   "scripts": {},
   "browserslist": [
