@@ -6,6 +6,9 @@ const shell = require("shelljs");
 
 const planBenefits = require("./planBenefits.json");
 
+const brandConfig = require(`./brand-config.js`);
+
+
 const environment = process.env.REACT_APP_ENVIRONMENT || "dev";
 const brandConfig = require(`./brand-config.${environment}.json`);
 
